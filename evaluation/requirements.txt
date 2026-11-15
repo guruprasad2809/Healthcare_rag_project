@@ -1,0 +1,7 @@
+ragas==0.4.4
+langchain-google-genai
+langchain-huggingface
+sentence-transformers
+pandas
+requests
+python-dotenv

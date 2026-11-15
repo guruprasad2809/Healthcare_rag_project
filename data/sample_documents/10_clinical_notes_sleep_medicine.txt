@@ -1,0 +1,228 @@
+CLINICAL NOTES: SLEEP MEDICINE
+De-identified sample medical transcriptions (MTSamples). Not real patient records.
+
+REPORT 1: VIDEO EEG - 2
+Summary: EEG during wakefulness, drowsiness, and sleep with synchronous video monitoring demonstrated no evidence of focal or epileptogenic activity.
+
+IMPRESSION:
+EEG during wakefulness, drowsiness, and sleep with synchronous video monitoring demonstrated no evidence of focal or epileptogenic activity.
+
+REPORT 2: VIDEO EEG - 3
+Summary: EEG during wakefulness and light sleep is abnormal with independent, positive sharp wave activity seen in both frontotemporal head regions, more predominant in the right frontotemporal region.
+
+PROCEDURE:
+EEG during wakefulness demonstrates background activity consisting of moderate-amplitude beta activity seen bilaterally. The EEG background is symmetric. Independent, small, positive, sharp wave activity is seen in the frontotemporal regions bilaterally with sharp-slow wave discharges seen more predominantly in the right frontotemporal head region. No clinical signs of involuntary movements are noted during synchronous video monitoring. Recording time is 22 minutes and 22 seconds. There is attenuation of the background, faster activity during drowsiness and some light sleep is recorded. No sustained epileptogenic activity is evident, but the independent bilateral sharp wave activity is seen intermittently. Photic stimulation induced a bilaterally symmetric photic driving response.
+
+IMPRESSION:
+EEG during wakefulness and light sleep is abnormal with independent, positive sharp wave activity seen in both frontotemporal head regions, more predominant in the right frontotemporal region. The EEG findings are consistent with potentially epileptogenic process. Clinical correlation is warranted.
+
+REPORT 3: VIDEO EEG - 1
+Summary: The patient has a history of epilepsy and has also had non-epileptic events in the past. Video EEG monitoring is performed to assess whether it is epileptic seizures or non-epileptic events.
+
+DATE OF EXAMINATION:
+Start: 12/29/2008 at 1859 hours. End: 12/30/2008 at 0728 hours.
+
+TOTAL RECORDING TIME:
+12 hours, 29 minutes.
+
+PATIENT HISTORY:
+This is a 46-year-old female with a history of events concerning for seizures. The patient has a history of epilepsy and has also had non-epileptic events in the past. Video EEG monitoring is performed to assess whether it is epileptic seizures or non-epileptic events.,VIDEO EEG DIAGNOSES,1. Awake: Normal.,2. Sleep: Activation of a single left temporal spike seen maximally at T3.,3. Clinical events: None.
+
+DESCRIPTION:
+Approximately 12 hours of continuous 21-channel digital video EEG monitoring was performed. During the waking state, there is a 9-Hz dominant posterior rhythm. The background of the record consists primarily of alpha frequency activity. At times, during the waking portion of the record, there appears to be excessive faster frequency activity. No activation procedures were performed.,Approximately four hours of intermittent sleep was obtained. A single left temporal, T3, spike is seen in sleep. Vertex waves and sleep spindles were present and symmetric.,The patient had no clinical events during the recording.
+
+CLINICAL INTERPRETATION:
+This is abnormal video EEG monitoring for a patient of this age due to the presence of a single left temporal spike seen during sleep. The patient had no clinical events during the recording period. Clinical correlation is required.
+
+REPORT 4: VIDEO EEG
+Summary: This is a 43-year-old female with a history of events concerning for seizures. Video EEG monitoring is performed to capture events and/or identify etiology.
+
+TIME SEEN:
+0734 hours and 1034 hours.
+
+TOTAL RECORDING TIME:
+27 hours 4 minutes.
+
+PATIENT HISTORY:
+This is a 43-year-old female with a history of events concerning for seizures. Video EEG monitoring is performed to capture events and/or identify etiology.,VIDEO EEG DIAGNOSES,1
+
+AWAKE:
+Normal.,2
+
+SLEEP:
+No activation.,3
+
+CLINICAL EVENTS:
+None.
+
+DESCRIPTION:
+Approximately 27 hours of continuous 21-channel digital video EEG monitoring was performed. The waking background is unchanged from that previously reported. Hyperventilation produced no changes in the resting record. Photic stimulation failed to elicit a well-developed photic driving response.,Approximately five-and-half hours of spontaneous intermittent sleep was obtained. Sleep spindles were present and symmetric.,The patient had no clinical events during the recording.
+
+CLINICAL INTERPRETATION:
+This is normal video EEG monitoring for a patient of this age. No interictal epileptiform activity was identified. The patient had no clinical events during the recording. Clinical correlation is required.
+
+REPORT 5: SNORING
+Summary: Chronic snoring in children
+
+CHRONIC SNORING,Chronic snoring in children can be associated with obstructive sleep apnea or upper airway resistant syndrome. Both conditions may lead to sleep fragmentation and/or intermittent oxygen desaturation, both of which have significant health implications including poor sleep quality and stress on the cardiovascular system. Symptoms like daytime somnolence, fatigue, hyperactivity, behavior difficulty (i.e., ADHD) and decreased school performance have been reported with these conditions. In addition, the most severe cases may be associated with right ventricular hypertrophy, pulmonary and/or systemic hypertension and even cor pulmonale.,In this patient, the risks for a sleep-disordered breathing include obesity and the tonsillar hypertrophy. It is therefore indicated and medically necessary to perform a polysomnogram for further evaluation. A two week sleep diary will be given to the parents to fill out daily before the polysomnogram is performed.
+
+REPORT 6: SLEEP STUDY FOLLOWUP
+Summary: Followup after a full-night sleep study performed to evaluate her for daytime fatigue and insomnia. This patient presents with history of sleep disruption and daytime sleepiness with fatigue. Her symptoms are multifactorial.
+
+REASON FOR VISIT:
+This 48-year-old woman returns in followup after a full-night sleep study performed to evaluate her for daytime fatigue and insomnia.
+
+HISTORY OF PRESENT ILLNESS:
+The patient presented initially to the Pulmonary Clinic with dyspnea on minimal exertion. At that time, she was evaluated and found to have evidence for sleep disruption and daytime fatigue. She also complained of nocturnal choking episodes that have since abated over the past several months. In the meantime, she had been scheduled for an overnight sleep study performed to evaluate her for sleep apnea, returns today to review her study results.,The patient's sleep patterns consist of going to bed between 9.00 and 10.00 p.m. and awakening in the morning between 5.00 and 6.00 a.m. She reports difficulty in initiating sleep and then recurrent awakenings every 1 to 2 hours throughout the night. She reports tossing and turning throughout the night and awakening with the sheets in disarray. She reports that her sleep was much better quality in the sleep laboratory as compared to home. When she awakens, she might have a dull headache and feels tired in the morning. Her daughter reports that she has heard the patient talking during sleep and snoring. There are no apneic episodes. The patient reports that she used to cough a lot in the middle of the night, but has no longer been doing so in recent weeks.,During the daytime, the patient reports spending a lot of sedentary time reading and watching TV. She routinely dozes off during these sedentary activities. She also might nap between 2.00 and 3.00 p.m., and nods off in the evening hours.,The patient smokes perhaps one to two packs of cigarettes per day, particularly after dinner.,She reports that her weight has fluctuated and peaked at 260 pounds approximately 1 year ago. Since that time, her weight is down by approximately 30 pounds.,The patient is managed in Outpatient Psychiatry and at her Maintenance Clinic. She takes methadone, trazodone, and Seroquel.
+
+PAST MEDICAL HISTORY:
+1. Depression.,2. Hepatitis C.,3. Hypertension.,4. Inhaled and intravenous drug abuse history.,The patient has a history of smoking two packs per day of cigarettes for approximately 25 pounds. She also has a history of recurrent atypical chest pain for which she has been evaluated.
+
+FAMILY HISTORY:
+As previously documented.
+
+SOCIAL HISTORY:
+The patient has a history of inhalation on intravenous drug abuse. She is currently on methadone maintenance. She is being followed in Psychiatry for depression and substance abuse issues. She lives with a room-mate.
+
+REVIEW OF SYSTEMS:
+Not contributory.
+
+MEDICATIONS:
+Current medications include the following:,1. Methadone 110 mg by mouth every day.,2. Paxil 60 mg by mouth every day.,3. Trazodone 30 mg by mouth nightly.,4. Seroquel 20 mg by mouth nightly.,5. Avalide (irbesartan) and hydrochlorothiazide.,6. Albuterol and Flovent inhalers two puffs by mouth twice a day.,7. Atrovent as needed.
+
+FINDINGS:
+Vital Signs: Blood pressure 126/84, pulse 67, respiratory rate 18, weight 232 pounds, height 5 feet 8 inches, temperature 97.4 degrees, SaO2 is 99 percent on room air at rest
+
+HEENT:
+Sclerae anicteric. Conjunctivae pink. Extraocular movements are intact. Pupils are equal, round, and reactive to light. The nasal passages show deviation in the nasal septum to the right. There is a slight bloody exudate at the right naris. Some nasal mucosal edema was noted with serous exudate bilaterally. The jaw is not foreshortened. The tongue is not large. Mallampati airway score was 3. The oropharynx was not shallow. There is no pharyngeal mucosa hypertrophy. No tonsillar tissue noted. The tongue is not large. Neck is supple. Thyroid without nodules or masses. Carotid upstrokes normal. No bruits. No jugular venous distention. Chest is clear to auscultation and percussion. No wheezing, rales, rhonchi or adventitious sounds. No prolongation of the expiratory phase. Cardiac: PMI not palpable. Regular rate and rhythm. S1 and S2 normal. No murmurs or gallops. Abdomen: Nontender. Bowel sounds normal. No liver or spleen palpable. Extremities: No clubbing or cyanosis. There is 1+ pretibial edema. Pulses are 2+ in upper and lower extremities. Neurologic: Grossly nonfocal.
+
+LABORATORIES:
+Pulmonary function studies reportedly show a mild restrictive ventilatory defect without obstruction. Diffusing capacity is well preserved.,An overnight sleep study was performed on this patient at the end of 02/07. At that time, she reported that her sleep was better in the laboratories compared to home. She slept for a total sleep time of 398 minutes out of 432 minutes in bed (sleep proficiency 92 percent). She fell asleep in the middle of latency of less than 1 minute. She woke up after sleep onset of 34 minutes. She had stage I sleep that was some elevated at 28 percent of total sleep time, and stage I sleep is predominantly evident in the lateral portion of the night. The remainders were stage II at 69 percent, stage III and IV at 3 percent of total sleep time.,The patient had no REM sleep.,The patient had no periodic limb movements during sleep.,The patient had no significant sleep-disordered breathing during non-REM sleep with less than one episode per hour. Oxyhemoglobin saturation remained in the low to mid 90s throughout the night.,Intermittent inspiratory flow limitation compatible with snoring was observed during non-REM sleep.
+
+ASSESSMENT AND PLAN:
+This patient presents with history of sleep disruption and daytime sleepiness with fatigue. Her symptoms are multifactorial.,Regarding the etiology of difficulty in initiating and maintaining sleep, the patient has a component of psychophysiologic insomnia, based on reports of better sleep in the laboratory as compared to home. In addition, nontrivial smoking in the home setting may be contributing significantly to sleep disruption.,Regarding her daytime sleepiness, the patient is taking a number of long-acting central nervous system acting medications to sedate her and can produce a lasting sedation throughout the daytime. These include trazodone, Seroquel, and methadone. Of these medications, the methadone is clearly indicative, given the history of substance abuse. It would be desirable to reduce or discontinue trazodone and then perhaps consider doing the same with Seroquel. I brought this possibility up with the patient, and I asked her to discuss this further with her psychiatrist.,Finally, to help mitigate sleep disruption at night, I have provided her with tips for sleep hygiene. These include bedtime rituals, stimulus control therapy, and sleep restriction as well as avoidance of nicotine in the evening hours.
+
+REPORT 7: OVERNIGHT POLYSOMNOGRAM
+Summary: The patient underwent an overnight polysomnogram.
+
+The patient underwent an overnight polysomnogram on 09/22/06 and the details of the polysomnographic study are reported separately. The highlights of the study include the following:,A. Obstructive apneas and hypopneas were identified with an overall apnea-hypopnea index of 15.2 events per hour in the supine position. All events occurred in the supine position and were more prominent during stage REM sleep. Minimum oxygen saturation was 88%.,B. Periodic limb movements in sleep were identified with an overall index of 32 events per hour of sleep.,C. The patient's sleep efficiency was reduced to 89.2%. There was significant sleep fragmentation due to the obstructive apneas and hypopneas as well as due to the periodic limb movements in sleep disorder. The patient did not achieve any stage III/IV sleep and stage REM sleep was diminished at 12.7%. There was a corresponding increase in stage I sleep and stage II sleep at 10.8% and 65.7% respectively.
+
+DIAGNOSTIC IMPRESSION:
+1. Obstructive sleep apnea syndrome, supine position dependent, moderate (780.53-0).,2. Periodic limb movement in sleep disorder, moderate (780.53-4).
+
+CASE DISCUSSION:
+Thank you once again for allowing us to participate in the care of the patient here at the Sleep Clinic.,The patient exhibits obstructive sleep apnea, a condition associated with increased risk of myocardial infarction, stroke and sudden death. Furthermore, patients with this condition are susceptible to excessive daytime sleepiness while driving and there is a higher incidence of automobile accident. The patient should be warned with regards to these possibilities.,Patients with this condition can be successfully treated with nasal CPAP (continuous positive airway pressure), so that the patient should return to the sleep laboratory for repeat overnight polysomnogram with CPAP titration. The sleep laboratory if necessary can introduce the patient to the proper use of the CPAP equipment and to determine a necessary pressure to prevent apneas.,It is reported that the patient undergo careful ENT/maxillofacial evaluation by a physician familiar with sleep disorders. Anatomical abnormalities in the upper airway often cause or predispose to this condition. Surgical intervention may be helpful or necessary if such conditions exist. Alternatively, ________ may be of benefit in some patients depending upon the anatomical abnormalities.,Obstructive sleep apnea is worsened by obesity. The patient should be encouraged to lose weight. Patients usually lose weight more effectively when involved in a behavioral weight loss program. It is sometimes difficult for patients to lose weight until the OSA is adequately treated because excessive daytime sleepiness results in decreased physical activity in the daytime.,Patient may have worsening obstructive sleep apnea by nasal airway obstruction and nasal congestion. If present, these conditions should be treated. In addition, any home allergens such as pets, down bedding or other factors should be removed from the sleep environment.,The patient should be informed that obstructive sleep apnea may be worsened by the use of alcohol or sedative medications particularly taken in the evening. Therefore, the evening use of sedative medications and alcohol are to be avoided.,The patient also exhibits periodic limb movements in sleep disorder. This may require treatment. However, it will be appropriate to obtain the repeat overnight polysomnogram with CPAP titration to see if the PLMS continues to be troublesome. If so, treatment recommendations will be made.
+
+REPORT 8: PULMONARY CONSULTATION - 1
+Summary: Obstructive sleep apnea syndrome. Loud snoring. Schedule an overnight sleep study.
+
+CHIEF COMPLAINT:
+Rule out obstructive sleep apnea syndrome.,Sample Patient is a pleasant, 61-year-old, obese, African-American male with a past medical history significant for hypertension, who presents to the Outpatient Clinic with complaints of loud snoring and witnessed apnea episodes by his wife for at least the past five years. He denies any gasping, choking, or coughing episodes while asleep at night. His bedtime is between 10 to 11 p.m., has no difficulty falling asleep, and is usually out of bed around 7 a.m. feeling refreshed. He has two to three episodes of nocturia per night. He denies any morning symptoms. He has mild excess daytime sleepiness manifested by dozing off during boring activities.
+
+PAST MEDICAL HISTORY:
+Hypertension, gastritis, and low back pain.
+
+PAST SURGICAL HISTORY:
+TURP.
+
+MEDICATIONS:
+Hytrin, Motrin, Lotensin, and Zantac.
+
+ALLERGIES:
+None.
+
+FAMILY HISTORY:
+Hypertension.
+
+SOCIAL HISTORY:
+Significant for about a 20-pack-year tobacco use, quit in 1991. No ethanol use or illicit drug use. He is married. He has one dog at home. He used to be employed at Budd Automotors as a die setter for about 37 to 40 years.
+
+REVIEW OF SYSTEMS:
+His weight has been steady over the years. Neck collar size is 17½". He denies any chest pain, cough, or shortness of breath. Last chest x-ray within the past year, per his report, was normal.
+
+PHYSICAL EXAM:
+A pleasant, obese, African-American male in no apparent respiratory distress. T: 98. P: 90. RR: 20. BP: 156/90. O2 saturation: 97% on room air. Ht: 5' 5". Wt: 198 lb
+
+HEENT:
+A short thick neck, low-hanging palate, enlarged scalloped tongue, narrow foreshortened pharynx, clear nares, and no JVD
+
+CARDIAC:
+Regular rate and rhythm without any adventitious sounds
+
+CHEST:
+Clear lungs bilaterally
+
+ABDOMEN:
+An obese abdomen with active bowel sounds
+
+EXTREMITIES:
+No cyanosis, clubbing, or edema
+
+NEUROLOGIC:
+Non-focal.
+
+IMPRESSION:
+1. Probable obstructive sleep apnea syndrome.,2. Hypertension.,3. Obesity.,4. History of tobacco use.
+
+PLAN:
+1. We will schedule an overnight sleep study to evaluate obstructive sleep apnea syndrome.,2. Encouraged weight loss.,3. Check TSH.,4. Asked not to drive and engage in any activity that could endanger himself or others while sleepy.,5. Asked to return to the clinic one week after sleep the study is done.
+
+REPORT 9: SLEEP APNEA
+Summary: Followup of moderate-to-severe sleep apnea. The patient returns today to review his response to CPAP. Recommended a fiberoptic ENT exam to exclude adenoidal tissue that may be contributing to obstruction.
+
+REASON FOR VISIT:
+Mr. ABC is a 30-year-old man who returns in followup of his still moderate-to-severe sleep apnea. He returns today to review his response to CPAP.
+
+HISTORY OF PRESENT ILLNESS:
+The patient initially presented with loud obnoxious snoring that disrupted the sleep of his bed partner. He was found to have moderate-to-severe sleep apnea (predominantly hypopnea), was treated with nasal CPAP at 10 cm H2O nasal pressure. He has been on CPAP now for several months, and returns for followup to review his response to treatment.,The patient reports that the CPAP has limited his snoring at night. Occasionally, his bed partner wakes him in the middle of the night, when the mask comes off, and reminds him to replace the mask. The patient estimates that he uses the CPAP approximately 5 to 7 nights per week, and on occasion takes it off and does not replace the mask when he awakens spontaneously in the middle of the night.,The patient's sleep pattern consists of going to bed between 11:00 and 11:30 at night and awakening between 6 to 7 a.m. on weekdays. On weekends, he might sleep until 8 to 9 a.m. On Saturday night, he might go to bed approximately mid night.,As noted, the patient is not snoring on CPAP. He denies much tossing and turning and does not awaken with the sheets in disarray. He awakens feeling relatively refreshed.,In the past few months, the patient has lost between 15 and 18 pounds in combination of dietary and exercise measures.,He continues to work at Smith Barney in downtown Baltimore. He generally works from 8 to 8:30 a.m. until approximately 5 to 5:30 p.m. He is involved in training purpose to how to sell managed funds and accounts.,The patient reports no change in daytime stamina. He has no difficulty staying awake during the daytime or evening hours.,The past medical history is notable for allergic rhinitis.
+
+MEDICATIONS:
+He is maintained on Flonase and denies much in the way of nasal symptoms.
+
+ALLERGIES:
+Molds.
+
+FINDINGS:
+Vital signs: Blood pressure 126/75, pulse 67, respiratory rate 16, weight 172 pounds, height 5 feet 9 inches, temperature 98.4 degrees and SaO2 is 99% on room air at rest.,The patient has adenoidal facies as noted previously.,Laboratories: The patient forgot to bring his smart card in for downloading today.
+
+ASSESSMENT:
+Moderate-to-severe sleep apnea. I have recommended the patient continue CPAP indefinitely. He will be sending me his smart card for downloading to determine his CPAP usage pattern. In addition, he will continue efforts to maintain his weight at current levels or below. Should he succeed in reducing further, we might consider re-running a sleep study to determine whether he still requires a CPAP.
+
+PLANS:
+In the meantime, if it is also that the possible nasal obstruction is contributing to snoring and obstructive hypopnea. I have recommended that a fiberoptic ENT exam be performed to exclude adenoidal tissue that may be contributing to obstruction. He will be returning for routine followup in 6 months.
+
+REPORT 10: SLEEP STUDY INTERPRETATION
+Summary: Sleep study - patient with symptoms of obstructive sleep apnea with snoring.
+
+PROCEDURE:
+Sleep study.
+
+CLINICAL INFORMATION:
+This patient is a 56-year-old gentleman who had symptoms of obstructive sleep apnea with snoring, hypertension. The test was done 01/24/06. The patient weighed 191 pounds, five feet, seven inches tall.
+
+SLEEP QUESTIONNAIRE:
+According to the patient's own estimate, the patient took about 15 minutes to fall asleep, slept for six and a half hours, did have some dreams. Did not wake up and the sleep was less refreshing. He was sleepy in the morning.
+
+STUDY PROTOCOL:
+An all night polysomnogram was recorded with a Compumedics E Series digital polysomnograph. After the scalp was prepared, Ag/AgCl electrodes were applied to the scalp according to the International 10-20 System. EEG was monitored from C4-A1, C3-A2, O2-A1 and O2-A1. EOG and EMG were continuously monitored by electrodes placed at the outer canthi and chin respectively. Nasal and oral airflow were monitored using a triple port Thermistor. Respiratory effort was measured by piezoelectric technology employing an abdominal and thoracic belt. Blood oxygen saturation was continuously monitored by pulse oximetry. Heart rate and rhythm were monitored by surface electrocardiography. Anterior tibialis EMG was studied by using surface mounted electrodes placed 5 cm apart on both legs. Body position and snoring level were also monitored.
+
+TECHNICAL QUALITY OF STUDY:
+Good.
+
+ELECTROPHYSIOLOGIC MEASUREMENTS:
+Total recording time 406 minutes, total sleep time 365 minutes, sleep latency 25.5 minutes, REM latency 49 minutes, _____ 90%, sleep latency measured 86%. _____ period was obtained. The patient spent 10% of the time awake in bed.,Stage I: 3.8,Stage II: 50.5,Stage III: 14%,Stage REM: 21.7%,The patient had relatively good sleep architecture, except for excessive waking.
+
+RESPIRATORY MEASUREMENTS:
+Total apnea/hypopnea 75, age index 12.3 per hour. REM age index 15 per hour. Total arousal 101, arousal index 15.6 per hour. Oxygen desaturation was down to 88%. Longest event 35 second hypopnea with an FiO2 of 94%. Total limb movements 92, PRM index 15.1 per hour. PRM arousal index 8.9 per hour.
+
+ELECTROCARDIOGRAPHIC OBSERVATIONS:
+Heart rate while asleep 60 to 64 per minute, while awake 70 to 78 per minute.
+
+CONCLUSIONS:
+Obstructive sleep apnea syndrome with moderately loud snoring and significant apnea/hypopnea index.
+
+RECOMMENDATIONS:
+AXIS B: Overnight polysomnography.
+
+AXIS C:
+Hypertension.,The patient should return for nasal CPAP titration. Sleep apnea if not treated, may lead to chronic hypertension, which may have cardiovascular consequences. Excessive daytime sleepiness, dysfunction and memory loss may also occur.

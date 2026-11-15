@@ -1,0 +1,30 @@
+{
+  "name": "healthcare-rag-backend",
+  "version": "1.0.0",
+  "description": "Healthcare RAG backend: multi-format ingestion, semantic title-based chunking, hybrid search, reranking and Gemini answers",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "ingest:samples": "node scripts/ingestSamples.js",
+    "compare:chunking": "node scripts/compareChunking.js",
+    "test": "node --test \"tests/*.test.js\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^3.3.0",
+    "@huggingface/transformers": "^4.3.2",
+    "@qdrant/js-client-rest": "^1.20.0",
+    "cors": "^2.8.6",
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mammoth": "^1.13.0",
+    "multer": "^2.5.0",
+    "pdfjs-dist": "^6.5.438"
+  }
+}
