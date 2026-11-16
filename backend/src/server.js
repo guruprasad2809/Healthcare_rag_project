@@ -15,6 +15,7 @@ const app = createApp(container);
 app.listen(config.server.port, () => {
   log.info(`Healthcare RAG running at http://localhost:${config.server.port}`);
   log.info(`LLM: ${config.llm.model} | Embeddings: ${config.embedding.model} | Reranker: ${config.reranker.model}`);
+  if (!config.server.auth.password) log.warn('APP_PASSWORD is empty: the app is open to anyone who can reach it. Set it before deploying.');
   if (!config.llm.apiKey) log.warn('GEMINI_API_KEY is empty: uploads and retrieval work, but answers cannot be generated.');
 });
 

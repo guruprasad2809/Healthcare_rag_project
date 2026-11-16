@@ -27,10 +27,11 @@ export function loadConfig() {
       port: num('PORT', 3000),
       maxUploadBytes: num('MAX_UPLOAD_MB', 25) * 1024 * 1024,
       frontendDir: path.join(PROJECT_ROOT, 'frontend'),
+      auth: { username: str('APP_USERNAME', 'admin'), password: str('APP_PASSWORD') },
     },
     llm: {
       apiKey: str('GEMINI_API_KEY'),
-      model: str('GEMINI_MODEL', 'gemini-3.8-flash'),
+      model: str('GEMINI_MODEL', 'gemini-3.5-flash-lite'),
       temperature: num('GEMINI_TEMPERATURE', 0.2),
       maxOutputTokens: num('GEMINI_MAX_OUTPUT_TOKENS', 1024),
     },
@@ -46,7 +47,7 @@ export function loadConfig() {
     },
     reranker: {
       enabled: bool('RERANKER_ENABLED', true),
-      model: str('RERANKER_MODEL', 'onnx-community/bge-reranker-v2-m3-ONNX'),
+      model: str('RERANKER_MODEL', 'Xenova/ms-marco-MiniLM-L-6-v2'),
       dtype: str('RERANKER_DTYPE', 'q8'),
       batchSize: num('RERANKER_BATCH_SIZE', 8),
       maxLength: num('RERANKER_MAX_LENGTH', 512),
@@ -65,11 +66,14 @@ export function loadConfig() {
     retrieval: {
       candidates: num('RETRIEVAL_CANDIDATES', 20),
       topK: num('RERANK_TOP_K', 5),
-      minScore: num('RERANK_MIN_SCORE', 0.02),
+      minScore: num('RERANK_MIN_SCORE', 0),
     },
     storage: {
       dir: storageDir,
       modelCacheDir: resolveFromRoot(str('MODEL_CACHE_DIR', path.join(storageDir, 'models'))),
+    },
+    evaluation: {
+      resultsDir: resolveFromRoot(str('EVALUATION_RESULTS_DIR', './evaluation/results')),
     },
     hfToken: str('HF_TOKEN') || undefined,
   };

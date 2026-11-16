@@ -7,7 +7,7 @@ that come only from those documents, with the sources shown for every answer.
 |---|---|
 | LLM | Gemini (model ID set by `GEMINI_MODEL`) |
 | Embedding model | Qwen3-Embedding-0.6B |
-| Reranker | BAAI/bge-reranker-v2-m3 |
+| Reranker | Cross-encoder: ms-marco-MiniLM-L-6-v2 by default (fast on CPU); BAAI/bge-reranker-v2-m3 supported via `.env` |
 | Chunking | Semantic Title-Based Chunking |
 | Retrieval | Hybrid search: BM25 + vector embeddings, fused with RRF, then reranked |
 | Vector database | Qdrant |
@@ -17,7 +17,7 @@ that come only from those documents, with the sources shown for every answer.
 
 > **About "Gemini 4 Hydrogen":** this model has no public API model ID yet, so it cannot be
 > called today. The model is one line in `.env` (`GEMINI_MODEL`). It is set to
-> `gemini-3.8-flash` for now; put the Hydrogen model ID there when Google releases it.
+> `gemini-3.5-flash-lite` for now; put the Hydrogen model ID there when Google releases it.
 
 ## How it works
 
@@ -29,7 +29,7 @@ that come only from those documents, with the sources shown for every answer.
                  ┌────────────────────────── RETRIEVAL ──────────────────────────┐
  question ──► Qwen3 query embedding ─┐
           └─► BM25 query vector ─────┴─► Qdrant hybrid search (RRF fusion, top 20)
-                                          ──► bge-reranker-v2-m3 (top 5)
+                                          ──► cross-encoder reranker (top 5)
 
                  ┌────────────────────────── GENERATION ─────────────────────────┐
  top 5 chunks + question ──► grounded prompt ──► Gemini ──► answer with [1][2] citations
@@ -49,11 +49,13 @@ that come only from those documents, with the sources shown for every answer.
 │   │   └── utils/
 │   ├── scripts/              ingest sample documents, compare chunking strategies
 │   └── tests/                unit tests + end-to-end test against Qdrant
-├── frontend/                 upload + chat UI (index.html, css/, js/)
+├── frontend/                 upload + chat UI and the Evaluation dashboard tab
 ├── data/sample_documents/    15 healthcare documents (4 PDF, 4 DOCX, 4 TXT, 3 CSV)
 ├── evaluation/               RAGAS script, evaluation dataset, results
 ├── docs/                     implementation plan and chunking analysis
-├── docker-compose.yml        Qdrant
+├── Dockerfile                image for the app (used for deployment)
+├── docker-compose.yml        Qdrant for local development
+├── docker-compose.prod.yml   full stack for a server: Caddy + app + Qdrant
 └── .env.example
 ```
 
@@ -74,9 +76,13 @@ npm install
 npm start                     # http://localhost:3000
 ```
 
-The first start downloads the embedding and reranker models (roughly 1 GB with the default
+The first start downloads the embedding and reranker models (several hundred MB with the default
 `q8` setting) into `storage/models`. The status line in the top-left of the page turns to
 "Ready" when everything is loaded.
+
+No Docker? Qdrant also runs as a single program: download the build for your system from
+github.com/qdrant/qdrant/releases, unzip it, and start `qdrant` (on Windows `qdrant.exe`)
+before `npm start`.
 
 Load the 15 sample documents (or upload your own in the browser):
 
@@ -126,6 +132,7 @@ the original text; only the file format is new. For education and research use.
 | GET | `/api/documents` | List ingested documents |
 | DELETE | `/api/documents/:docId` | Remove a document and its chunks |
 | POST | `/api/chat` | `{ "question": "..." }` → answer, sources, contexts |
+| GET | `/api/evaluation/runs`, `/api/evaluation/runs/:id` | RAGAS results for the Evaluation tab |
 | POST | `/api/retrieve` | `{ "query": "...", "mode": "hybrid\|dense\|bm25" }` → chunks only, no LLM |
 
 ## Tests
@@ -153,9 +160,28 @@ saved in `evaluation/results/` as a CSV (one row per question) and a JSON summar
 (overall and per question category). Six of the questions are out of scope on purpose:
 the right behaviour there is to say "the documents do not cover this".
 
+After a run, open the **Evaluation** tab in the app to see the scores as a dashboard:
+headline numbers, averages per question category, and every question with the app's
+answer next to the reference answer. `python build_dashboard.py` writes the same view as
+one standalone HTML file you can share.
+
+On a free Gemini key use a sample, because a full run needs roughly 900 requests:
+
+```bash
+python ragas_evaluate.py --sample 15
+python ragas_evaluate.py --answers results/answers_<time>.json --metrics answer_relevancy   # re-score one metric
+```
+
+## Deployment
+
+[docs/DEPLOYMENT_GCP.md](docs/DEPLOYMENT_GCP.md) walks through running the app on one Google
+Cloud VM with Docker. Set `APP_PASSWORD` in `.env` whenever the app is reachable from the
+internet; it turns on a login for the page and the API.
+
 ## More documentation
 
 - [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md): the four modules, with tasks, steps, tools and expected outcomes
+- [docs/DEPLOYMENT_GCP.md](docs/DEPLOYMENT_GCP.md): step-by-step deployment on Google Cloud
 - [docs/CHUNKING_ANALYSIS.md](docs/CHUNKING_ANALYSIS.md): why semantic title-based chunking, and how it compares with fixed-size and recursive chunking
 
 ## Limits to know about

@@ -85,17 +85,17 @@ No chunk is larger than the limit (450 tokens by default), and no chunk cuts a s
 1. Keyword search with BM25.
 2. Semantic search with vector embeddings.
 3. Fusion of the two result lists (hybrid search).
-4. Reranking with BAAI/bge-reranker-v2-m3.
+4. Reranking with a cross-encoder (ms-marco-MiniLM-L-6-v2 by default, BAAI/bge-reranker-v2-m3 optional).
 
 ### Steps
 1. **BM25** (`backend/src/retrieval/bm25Encoder.js`): tokenise text (lowercase, drop stopwords), give each term an ID by hashing, and compute the BM25 term weight. Qdrant stores these as sparse vectors and applies the IDF part itself (`modifier: idf`), so rare terms such as drug names count for more.
 2. **Vector search** (`services/embedder.js`): embed the question with Qwen3-Embedding-0.6B using its query instruction prefix.
 3. **Hybrid search** (`services/qdrantStore.js`): send one Qdrant query with two prefetches (dense top 20, BM25 top 20) fused with Reciprocal Rank Fusion. A chunk ranked well by either method rises to the top.
-4. **Rerank** (`retrieval/reranker.js`): score each of the 20 candidates together with the question using bge-reranker-v2-m3, sort by that score, drop very weak matches, keep the top 5.
+4. **Rerank** (`retrieval/reranker.js`): score each of the 20 candidates together with the question using the cross-encoder reranker, sort by that score, drop very weak matches, keep the top 5.
 5. **Retriever** (`retrieval/retriever.js`): runs steps 1–4 and returns chunks with scores, metadata and timings. `POST /api/retrieve` exposes it without the LLM so retrieval can be checked on its own, in `hybrid`, `dense` or `bm25` mode.
 
 ### Tools
-Qdrant Query API (prefetch + RRF fusion, sparse vectors), `@huggingface/transformers` (ONNX build of bge-reranker-v2-m3), Qwen3-Embedding-0.6B.
+Qdrant Query API (prefetch + RRF fusion, sparse vectors), `@huggingface/transformers` (ONNX cross-encoder reranker), Qwen3-Embedding-0.6B.
 
 ### Expected outcome
 `POST /api/retrieve` with "What causes asthma?" returns up to 5 chunks, the first from the

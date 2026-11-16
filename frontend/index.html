@@ -37,27 +37,37 @@
       <footer class="models" id="models"></footer>
     </aside>
 
-    <main class="chat" aria-label="Chat">
-      <div id="messages" class="messages" aria-live="polite">
-        <div class="welcome" id="welcome">
-          <h2>Ask about your healthcare documents</h2>
-          <p>Answers come only from the documents you upload, and every answer shows its sources.</p>
-          <div class="examples" id="examples">
-            <button type="button">What causes asthma?</button>
-            <button type="button">What precautions should be taken for malaria?</button>
-            <button type="button">How are kidney stones diagnosed?</button>
-            <button type="button">What is anemia?</button>
+    <main class="chat">
+      <nav class="tabs" aria-label="Views">
+        <button type="button" class="tab active" data-view="chat">Chat</button>
+        <button type="button" class="tab" data-view="evaluation">Evaluation</button>
+      </nav>
+
+      <div id="view-chat" class="view" aria-label="Chat">
+        <div id="messages" class="messages" aria-live="polite">
+          <div class="welcome" id="welcome">
+            <h2>Ask about your healthcare documents</h2>
+            <p>Answers come only from the documents you upload, and every answer shows its sources.</p>
+            <div class="examples" id="examples">
+              <button type="button">What causes asthma?</button>
+              <button type="button">What precautions should be taken for malaria?</button>
+              <button type="button">How are kidney stones diagnosed?</button>
+              <button type="button">What is anemia?</button>
+            </div>
           </div>
         </div>
+
+        <form id="chat-form" class="composer" autocomplete="off">
+          <textarea id="question" rows="1" placeholder="Ask a question about your documents…" aria-label="Your question" maxlength="2000"></textarea>
+          <button id="send" type="submit">Ask</button>
+        </form>
+        <p class="disclaimer">For information only. This is not medical advice. In an emergency, call your local emergency number.</p>
       </div>
 
-      <form id="chat-form" class="composer" autocomplete="off">
-        <textarea id="question" rows="1" placeholder="Ask a question about your documents…" aria-label="Your question" maxlength="2000"></textarea>
-        <button id="send" type="submit">Ask</button>
-      </form>
-      <p class="disclaimer">For information only. This is not medical advice. In an emergency, call your local emergency number.</p>
+      <div id="view-evaluation" class="view evaluation" aria-label="Evaluation" hidden></div>
     </main>
   </div>
+  <div id="tip" class="tip"></div>
 
   <script type="module" src="js/app.js"></script>
 </body>

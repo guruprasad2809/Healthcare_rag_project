@@ -1,0 +1,9 @@
+# SITE_ADDRESS is ":80" (plain HTTP on the server's IP) unless .env sets a domain name,
+# in which case Caddy gets and renews an HTTPS certificate by itself.
+{$SITE_ADDRESS::80} {
+	encode gzip
+	request_body {
+		max_size 30MB
+	}
+	reverse_proxy app:3000
+}
