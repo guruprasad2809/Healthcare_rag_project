@@ -53,7 +53,8 @@ that come only from those documents, with the sources shown for every answer.
 ├── data/sample_documents/    15 healthcare documents (4 PDF, 4 DOCX, 4 TXT, 3 CSV)
 ├── evaluation/               RAGAS script, evaluation dataset, results
 ├── docs/                     implementation plan and chunking analysis
-├── Dockerfile                image for the app (used for deployment)
+├── package.json              lets hosts like Azure App Service install and start the app from the repo root
+├── Dockerfile                image for the app (used for Docker deployment)
 ├── docker-compose.yml        Qdrant for local development
 ├── docker-compose.prod.yml   full stack for a server: Caddy + app + Qdrant
 └── .env.example
@@ -174,14 +175,15 @@ python ragas_evaluate.py --answers results/answers_<time>.json --metrics answer_
 
 ## Deployment
 
-[docs/DEPLOYMENT_GCP.md](docs/DEPLOYMENT_GCP.md) walks through running the app on one Google
-Cloud VM with Docker. Set `APP_PASSWORD` in `.env` whenever the app is reachable from the
-internet; it turns on a login for the page and the API.
+- [docs/DEPLOYMENT_AZURE.md](docs/DEPLOYMENT_AZURE.md): Azure App Service, deployed straight from GitHub, no Docker (uses Qdrant Cloud)
+- [docs/DEPLOYMENT_GCP.md](docs/DEPLOYMENT_GCP.md): one Google Cloud VM with Docker
+
+Set `APP_PASSWORD` whenever the app is reachable from the internet; it turns on a login
+for the page and the API.
 
 ## More documentation
 
 - [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md): the four modules, with tasks, steps, tools and expected outcomes
-- [docs/DEPLOYMENT_GCP.md](docs/DEPLOYMENT_GCP.md): step-by-step deployment on Google Cloud
 - [docs/CHUNKING_ANALYSIS.md](docs/CHUNKING_ANALYSIS.md): why semantic title-based chunking, and how it compares with fixed-size and recursive chunking
 
 ## Limits to know about
