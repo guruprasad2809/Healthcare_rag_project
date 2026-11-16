@@ -15,6 +15,8 @@ export const api = {
     return request('/documents', { method: 'POST', body: form });
   },
   deleteDocument: (docId) => request(`/documents/${encodeURIComponent(docId)}`, { method: 'DELETE' }),
+  listEvaluationRuns: () => request('/evaluation/runs'),
+  getEvaluationRun: (id) => request(`/evaluation/runs/${encodeURIComponent(id)}`),
   ask: (question) =>
     request('/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question }) }),
 };

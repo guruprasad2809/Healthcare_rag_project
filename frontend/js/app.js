@@ -1,5 +1,6 @@
 import { api } from './api.js';
 import { escapeHtml, renderAnswer, renderSources } from './render.js';
+import { showEvaluation } from './evaluation.js';
 
 const $ = (id) => document.getElementById(id);
 const messages = $('messages');
@@ -157,6 +158,20 @@ messages.addEventListener('click', (event) => {
   source.classList.add('highlight');
   source.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 });
+
+// ---------- Views (Chat / Evaluation) ----------
+function showView(name) {
+  document.querySelectorAll('.tab').forEach((tab) => tab.classList.toggle('active', tab.dataset.view === name));
+  $('view-chat').hidden = name !== 'chat';
+  $('view-evaluation').hidden = name !== 'evaluation';
+  if (name === 'evaluation') showEvaluation($('view-evaluation')); // reloads, so new runs appear
+  history.replaceState(null, '', name === 'chat' ? location.pathname : '#evaluation');
+}
+document.querySelector('.tabs').addEventListener('click', (event) => {
+  const tab = event.target.closest('.tab');
+  if (tab) showView(tab.dataset.view);
+});
+if (location.hash === '#evaluation') showView('evaluation');
 
 // ---------- Start ----------
 refreshDocuments().catch(() => {});

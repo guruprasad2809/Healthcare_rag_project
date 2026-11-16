@@ -1,4 +1,4 @@
-// Reranker: BAAI/bge-reranker-v2-m3, a cross-encoder. Unlike the embedding model it
+// Reranker: a cross-encoder (ms-marco-MiniLM-L-6-v2 by default; bge-reranker-v2-m3 also works). Unlike the embedding model it
 // reads the question and a passage together, so it judges relevance far more precisely.
 // It is slower, which is why it only re-scores the short list from hybrid search.
 import { createLogger } from '../utils/logger.js';

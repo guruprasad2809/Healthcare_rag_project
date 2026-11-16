@@ -1,0 +1,49 @@
+# Production stack for one server (see docs/DEPLOYMENT_GCP.md):
+#   caddy  - web entry point on ports 80/443 (HTTPS automatically when SITE_ADDRESS is a domain)
+#   app    - the Healthcare RAG backend and frontend
+#   qdrant - the vector database (not reachable from outside)
+#
+# Start:  docker compose -f docker-compose.prod.yml up -d --build
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      PORT: "3000"
+      QDRANT_URL: http://qdrant:6333
+      STORAGE_DIR: /app/storage
+      MODEL_CACHE_DIR: /app/storage/models
+    volumes:
+      - app_storage:/app/storage
+      # RAGAS result files placed here show up in the Evaluation tab.
+      - ./evaluation/results:/app/evaluation/results:ro
+    depends_on:
+      - qdrant
+
+  qdrant:
+    image: qdrant/qdrant:v1.20.1
+    restart: unless-stopped
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  app_storage:
+  qdrant_data:
+  caddy_data:
+  caddy_config:
