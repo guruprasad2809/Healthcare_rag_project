@@ -1,0 +1,13 @@
+{
+  "name": "healthcare-rag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Healthcare RAG application. The app lives in backend/ and frontend/; this file lets hosts such as Azure App Service install and start it from the repository root.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "postinstall": "cd backend && npm ci --omit=dev",
+    "start": "node backend/src/server.js"
+  }
+}
